@@ -26,4 +26,4 @@ Your web page should include the same content as part 1. Using Bootstrap could i
 ## CSS Requirements
 You do not need additional styling on top of Bootstrap. Just the bootstrap CSS from CDN.
 
-For full credit, this version should look professional and utilize Bootstraps grid system (container, row, col) in at least one area.
+<strong>For full credit, this version should look professional and utilize Bootstraps grid system (container, row, col) in at least one area.</strong>
