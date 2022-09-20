@@ -16,7 +16,7 @@ def test_container():
 def test_row():
     soup = BeautifulSoup(open('./about_me_part2.html'), "html.parser")
     try:
-        cont = soup.select(re.compile("row"))
+        cont = soup.select(".row")
     except:
         cont = None
     assert cont is not None
@@ -25,7 +25,7 @@ def test_row():
 def test_column():
     soup = BeautifulSoup(open('./about_me_part2.html'), "html.parser")
     try:
-        cont = soup.select(re.compile("row"))
+        cont = soup.select('[class*="col"]')
     except:
         cont = None
     assert cont is not None
@@ -56,7 +56,7 @@ def test_img():
     except:
         img = None
     assert img is not None
-    assert img.attr['src'] is not None
+    assert img.get('src') is not None
 
 # table
 def test_table():
