@@ -28,7 +28,7 @@ def test_img():
     except:
         img = None
     assert img is not None
-    assert img.attr['src'] is not None
+    assert img.get('src') is not None
 
 # table
 def test_table():
