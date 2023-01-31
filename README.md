@@ -24,6 +24,11 @@ I'm also a little out of touch with everything. Please culture me. Can you recom
 ## HTML Requirements
 Your web page should include the same content as part 1. Using Bootstrap could inspire you to do add more to make it look even better which is ok. (such as supplementing music recommendations with album art). Use Bootstrap to make everything look good. You might need to group elements in  to apply some styles.
 ## CSS Requirements
-You do not need additional styling on top of Bootstrap. Just the bootstrap CSS from CDN.
+You do not need additional styling on top of Bootstrap. Just the bootstrap CSS from CDN. 
+
+Some Bootstrap resources:
+* https://getbootstrap.com/
+* https://getbootstrap.com/docs/4.0/layout/grid/
+* https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 <strong>For full credit, this version should look professional and utilize Bootstraps grid system (container, row, col) in at least one area.</strong>
